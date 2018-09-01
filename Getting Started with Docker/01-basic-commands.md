@@ -3,6 +3,30 @@
 The following command gives the version of both the docker client and server\
 `docker version`
 
+A sample output for the command would be like this:
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">Client:</span>
+ <span style="color: #f8f8f2">Version:</span>           <span style="color: #ae81ff">18.06</span><span style="color: #f92672">.</span><span style="color: #ae81ff">1</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">ce</span>
+ <span style="color: #f8f8f2">API</span> <span style="color: #f8f8f2">version:</span>       <span style="color: #ae81ff">1.38</span>
+ <span style="color: #f8f8f2">Go</span> <span style="color: #f8f8f2">version:</span>        <span style="color: #f8f8f2">go1</span><span style="color: #f92672">.</span><span style="color: #ae81ff">10.3</span>
+ <span style="color: #f8f8f2">Git</span> <span style="color: #f8f8f2">commit:</span>        <span style="color: #f8f8f2">e68fc7a</span>
+ <span style="color: #f8f8f2">Built:</span>             <span style="color: #f8f8f2">Tue</span> <span style="color: #f8f8f2">Aug</span> <span style="color: #ae81ff">21</span> <span style="color: #ae81ff">17</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">24</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">51</span> <span style="color: #ae81ff">2018</span>
+ <span style="color: #f8f8f2">OS</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">Arch:</span>           <span style="color: #f8f8f2">linux</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">amd64</span>
+ <span style="color: #f8f8f2">Experimental:</span>      <span style="color: #f8f8f2">false</span>
+
+<span style="color: #f8f8f2">Server:</span>
+ <span style="color: #f8f8f2">Engine:</span>
+  <span style="color: #f8f8f2">Version:</span>          <span style="color: #ae81ff">18.06</span><span style="color: #f92672">.</span><span style="color: #ae81ff">1</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">ce</span>
+  <span style="color: #f8f8f2">API</span> <span style="color: #f8f8f2">version:</span>      <span style="color: #ae81ff">1.38</span> <span style="color: #f8f8f2">(minimum</span> <span style="color: #f8f8f2">version</span> <span style="color: #ae81ff">1.12</span><span style="color: #f8f8f2">)</span>
+  <span style="color: #f8f8f2">Go</span> <span style="color: #f8f8f2">version:</span>       <span style="color: #f8f8f2">go1</span><span style="color: #f92672">.</span><span style="color: #ae81ff">10.3</span>
+  <span style="color: #f8f8f2">Git</span> <span style="color: #f8f8f2">commit:</span>       <span style="color: #f8f8f2">e68fc7a</span>
+  <span style="color: #f8f8f2">Built:</span>            <span style="color: #f8f8f2">Tue</span> <span style="color: #f8f8f2">Aug</span> <span style="color: #ae81ff">21</span> <span style="color: #ae81ff">17</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">23</span><span style="color: #f8f8f2">:</span><span style="color: #ae81ff">15</span> <span style="color: #ae81ff">2018</span>
+  <span style="color: #f8f8f2">OS</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">Arch:</span>          <span style="color: #f8f8f2">linux</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">amd64</span>
+  <span style="color: #f8f8f2">Experimental:</span>     <span style="color: #f8f8f2">false</span>
+</pre></div>
+
+As seen above, the output shows the version of docker engine (Server) and the docker client (terminal used for interacting with the engine). 
+It is also possible to point Docker Client to a remote Docker Engine. This may need special priveleges of course. Not sure how this is done yet!
+
 The following command gives good information on the overall configuration status of docker engine
 
 `docker info`

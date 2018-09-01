@@ -31,3 +31,20 @@ When docker container is destroyed, the data is lost. However data in VOLUMES ar
 
 Docker containers work better for both stateful and stateless nature of the Apps. You need to understand where the storage is occupied though. 
 
+## Docker model
+Docker engine doesn't really require a VM if it's running on Linux. This engine would essentially shared resources that 
+are povided at the OS level
+
+![Alt text](./docker-container-os-resources.png) 
+
+## Docker components
+- Image - a readonly component of what you want to run
+- container - a runnable component of an image
+- Network - private or public networks for containers to attach to
+- Volumes - a place for containers to store data that lives outside the container
+
+![Alt text](./01-docker-components.png)
+
+## Presentation
+
+[docker-presentation](./01-docker.pptx) 
