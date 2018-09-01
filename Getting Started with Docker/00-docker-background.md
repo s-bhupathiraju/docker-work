@@ -15,7 +15,7 @@ DockerHub Registry:
 Open Container Initiative:
 Container format and container runtime
 
-Core OS is another company that didn't like what docker was providing and they create a new container runtime solution ROCKET! Core OS found that Docker wasn't secure. They were right!
+Core OS is another company that didn't like what docker was providing and they create a new container runtime solution ROCK IT! Core OS found that Docker wasn't secure. They were right!
 They released apc specification. 
 
 There were two competing standards in the market. So, Docker and RKT came together and formed a singular specification OCI(Open Container Initiative)
