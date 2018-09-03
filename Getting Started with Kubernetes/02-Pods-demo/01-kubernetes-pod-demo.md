@@ -1,0 +1,26 @@
+# POD demo
+
+Get information on minions or nodes `kubectl get nodes`. A sample output for this command looks like
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">NAME</span>                                       <span style="color: #f8f8f2">STATUS</span>    <span style="color: #f8f8f2">ROLES</span>     <span style="color: #f8f8f2">AGE</span>       <span style="color: #f8f8f2">VERSION</span>
+<span style="color: #f8f8f2">gke</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">cluster</span><span style="color: #f92672">-</span><span style="color: #ae81ff">1</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">default</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">pool</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">eac48c0f</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">ph6f</span>   <span style="color: #f8f8f2">Ready</span>     <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">none</span><span style="color: #f92672">&gt;</span>    <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">h</span>        <span style="color: #f8f8f2">v1</span><span style="color: #f92672">.</span><span style="color: #ae81ff">9.7</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">gke</span><span style="color: #f92672">.</span><span style="color: #ae81ff">6</span>
+<span style="color: #f8f8f2">gke</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">cluster</span><span style="color: #f92672">-</span><span style="color: #ae81ff">1</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">default</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">pool</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">eac48c0f</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">t3zd</span>   <span style="color: #f8f8f2">Ready</span>     <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">none</span><span style="color: #f92672">&gt;</span>    <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">h</span>        <span style="color: #f8f8f2">v1</span><span style="color: #f92672">.</span><span style="color: #ae81ff">9.7</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">gke</span><span style="color: #f92672">.</span><span style="color: #ae81ff">6</span>
+<span style="color: #f8f8f2">gke</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">cluster</span><span style="color: #f92672">-</span><span style="color: #ae81ff">1</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">default</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">pool</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">eac48c0f</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">trhz</span>   <span style="color: #f8f8f2">Ready</span>     <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">none</span><span style="color: #f92672">&gt;</span>    <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">h</span>        <span style="color: #f8f8f2">v1</span><span style="color: #f92672">.</span><span style="color: #ae81ff">9.7</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">gke</span><span style="color: #f92672">.</span><span style="color: #ae81ff">6</span>
+</pre></div>
+
+The following `pod.yml` is a simple declarative manifest file that can be passed to kube-api server for creating a pod
+
+<!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">apiVersion:</span> <span style="color: #f8f8f2">v1</span>
+<span style="color: #f8f8f2">kind:</span> <span style="color: #f8f8f2">Pod</span>
+<span style="color: #f8f8f2">metadata:</span>
+  <span style="color: #f8f8f2">name:</span> <span style="color: #f8f8f2">hello</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">pod</span>
+<span style="color: #f8f8f2">spec:</span>
+  <span style="color: #f8f8f2">containers:</span>
+  <span style="color: #f92672">-</span> <span style="color: #f8f8f2">name:</span> <span style="color: #f8f8f2">hello</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">ctr</span>
+    <span style="color: #f8f8f2">image:</span> <span style="color: #f8f8f2">nigelpoulton</span><span style="color: #f92672">/</span><span style="color: #f8f8f2">pluralsight</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">docker</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">ci:latest</span>
+    <span style="color: #f8f8f2">ports:</span>
+    <span style="color: #f92672">-</span> <span style="color: #f8f8f2">containerPort:</span> <span style="color: #ae81ff">8080</span>
+</pre></div>
+
+The following command will simply deploy this pod to k8s cluster
+`kubectl create -f pod.yml` 
