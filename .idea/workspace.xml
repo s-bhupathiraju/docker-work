@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e70b657-1910-4668-b852-dd26e12e0748" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/4mvd03.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/.dockerignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/Read Me.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apigee/authz-person-bounded-context/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/01-setup/03_kubectl_contexts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/deployment-helloworld.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/pod-multiple.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/rc.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-services-demo.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Getting Started with Kubernetes/01-setup/01-kubernetes-setup.md" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/01-setup/01-kubernetes-setup.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-service-demo.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-services-demo.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,25 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01-kubernetes-pod-demo.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md">
+      <file leaf-file-name="01-kubernetes-service-demo.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-service-demo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="202">
-                <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="35" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-kubernetes-services-demo.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-services-demo.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -95,10 +69,10 @@
         <option value="$PROJECT_DIR$/Apigee/authz-person-bounded-context/.dockerignore" />
         <option value="$PROJECT_DIR$/Apigee/authz-person-bounded-context/Read Me.md" />
         <option value="$PROJECT_DIR$/Apigee/authz-person-bounded-context/server.js" />
-        <option value="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md" />
         <option value="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/rc.yml" />
         <option value="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/deployment-helloworld.yml" />
         <option value="$PROJECT_DIR$/Getting Started with Kubernetes/01-setup/03_kubectl_contexts.md" />
+        <option value="$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md" />
       </list>
     </option>
   </component>
@@ -107,9 +81,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Apigee/authz-person-bounded-context/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -208,12 +179,12 @@
       <workItem from="1535261773677" duration="4154000" />
       <workItem from="1535826910416" duration="26154000" />
       <workItem from="1536438091928" duration="3452000" />
-      <workItem from="1537192428272" duration="1519000" />
+      <workItem from="1537192428272" duration="2409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35279000" />
+    <option name="totallyTimeSpent" value="36169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -575,11 +546,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-services-demo.md">
+    <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -589,8 +560,19 @@
     <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/02-Pods-demo/01-kubernetes-pod-demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="35" />
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started with Kubernetes/03-services/01-kubernetes-service-demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
