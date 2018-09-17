@@ -1,0 +1,22 @@
+{
+  "name": "authz-person-bounded-context",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "ngrok": "ngrok http 3010"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "express-jwt-authz": "^1.0.0",
+    "jwks-rsa": "^1.2.1",
+    "morgan": "^1.9.0",
+    "ngrok": "^2.2.25"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  }
+}

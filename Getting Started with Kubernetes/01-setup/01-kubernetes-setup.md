@@ -13,6 +13,13 @@ Use Hyperkit - https://github.com/moby/hyperkit
 Check the current cluster that is connected by kubectl
 ` kubectl config current-context`
 
+Switch to a different context using
+`kubectl config use-context minikube`
+
+#### Man like Documentation
+`kubectl explain svc` \
+`kubectl explain pod`
+
 #### Get Nodes
 ` kubectl get nodes`
 
